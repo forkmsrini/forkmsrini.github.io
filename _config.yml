@@ -4,7 +4,7 @@
 #protocol: "https:"
 url: "http://forkmsrini.github.io"
 baseurl: ""
-google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
+google-tracking-id: "UA-58926075-1"
 
 #############
 # HTML Head #
