@@ -1,7 +1,8 @@
 
 # Site settings
 
-url: "http://panossakkos.github.io"
+#protocol: "https:"
+url: "http://forkmsrini.github.io"
 baseurl: /personal-jekyll-theme
 google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
@@ -9,20 +10,21 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Mukundhan Srinivasan"
 lang: "en"
-title: "{ John Smith }"
+title: "{ immsrini }"
 favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Web aboard of immsrini. Opinions expressed are mine."
+keywords: "mukundhan, srinivasan, mannargudi, machine learning, statistics, big data, data science, IoT"
 
 ################
 # Intro layout #
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+background-img: "../img/intro-bg1.png"
+me-img: "/img/mSrini1.png"
+me-img-alt-text: "Mukundhan Srinivasan"
 
 ##############################
 # Dynamic Text on the header #
@@ -32,12 +34,14 @@ dynamic-typing: True
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
+type-speed:	4		# Default 10
+start-delay: 1000	# Default 200
+delete-delay: 7000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Vanakkam!!!"
+  - text: "Exploiting the interplay of physical sciences and analytics..."
+  - text: "I'm Mannargudi Mukundhan Srinivasan..."
+  - text: "Vanakkam!!!"
 
 ########
 # Blog #
@@ -50,28 +54,47 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "immsrini"
 
 ###############
 # Life Events #
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/TTC_cloudOnly.png"
+    date: "July 2015 - Today"
+    description: " Co-founder & CTO @ <a href=\"http://www.thethingscloud.com/\" target=\"_blank\">TheThingsCloud</a>"
+  - image: "/img/career/mllLogo.png"
+    date: "March 2015 - Today"
+    description: " Founder & CEO @ <a href=\"http://www.marketlearning.io/\" target=\"_blank\">MarketLearningLabs</a>"
+  - image: "/img/career/IISc_logo_transparent1.png"
+    date: "June 2015 - Today"
+    description: " Research Assistant @ Robert Bosch Center for Cyberphysical Systems, IISc, Bangalore"
+  - image: "/img/career/IISc_logo_transparent1.png"
+    date: "June 2013 - March 2015"
+    description: "Research Assistant @ <a href=\"http://mile.ee.iisc.ernet.in/mile/index.html\" target=\"_blank\"> MILE Lab,</a> <a href=\"http://www.ee.iisc.ernet.in/\">Department of Electrical Engg.,</a> <a href=\"http://www.iisc.ernet.in/\">IISc, Bangalore</a>"
+  - image: "/img/career/ieee.png"
+    date: "December 2009 - Today"
+    description: " Volunteer @ <a href=\"https://www.ieee.org/index.html\" target=\"_blank\">IEEE</a> <a href=\"http://ieeebangalore.org/\" target=\"_blank\">Bangalore Section</a>"
+  - image: "/img/career/annaUniv.png"
+    date: "August 2009 - May 2013"
+    description: " Bachelor's Degree (Electronics & Communication Engineering)"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/career/default1.jpg"
+
+#######################
+# Publications layout #
+#######################
+
+
 
 ##################
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "msrini@thethingscloud.com"
+#email: "msrini@marketlearning.io"
 
 ##################
 # Social Buttons #
@@ -79,12 +102,14 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
+    url: "http://facebook.com/mukundhansrinivasan"
   - title: "twitter"
-    url: "http://twitter.com/"
+    url: "http://twitter.com/immsrini"
   - title: "youtube"
     url: "http://youtube.com/"
   - title: "github"
+    url: "https://github.com/"
+  - title: "linkedin"
     url: "https://github.com/"
   - title: "rss"
     url: "/feed.xml"
@@ -104,13 +129,15 @@ social:
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
+  <i class="fa fa-hand-spock-o"></i> Hello World: 'about'
+  <i class="fa fa-pencil"></i> Thought.toString(): 'blog'
+#  Publications: 'publications'
+  <i class="fa fa-briefcase"></i> Work.what(): 'career'
+  <i class="fa fa-envelope"></i> Contact.me(): 'contact'
 
 # Pagination path
 paginate_path: "blog/page:num"
+#paginate_path: "publications/page:num"
 
 # Enable minification SASS
 sass:

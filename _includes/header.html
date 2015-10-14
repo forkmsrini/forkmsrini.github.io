@@ -11,8 +11,10 @@
                     <span class="intro-text">{{ content }}</span>
                     <h5>&nbsp;</h5>
                     <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-                      <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+                      <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="{% if site.me-img-alt-text %}{{ site.me-img-alt-text }}{% else %}{{ site.title }}{% endif %}">
                     </a>
+                    <h1 class="brand-heading">&nbsp;</h1>
+                    {% include social-buttons.html %}
                 </div>
             </div>
         </div>
