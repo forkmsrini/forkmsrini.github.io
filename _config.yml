@@ -1,7 +1,6 @@
 
 # Site settings
 
-#protocol: "https:"
 url: "http://forkmsrini.github.io"
 baseurl: ""
 google-tracking-id: "UA-58926075-1"
@@ -137,7 +136,6 @@ pages_list:
 
 # Pagination path
 paginate_path: "blog/page:num"
-#paginate_path: "publications/page:num"
 
 # Enable minification SASS
 sass:
