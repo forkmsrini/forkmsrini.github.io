@@ -3,7 +3,7 @@
 
 #protocol: "https:"
 url: "http://forkmsrini.github.io"
-baseurl: 
+baseurl: ""
 google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
 #############
