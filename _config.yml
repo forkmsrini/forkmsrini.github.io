@@ -5,6 +5,7 @@ url: "http://forkmsrini.github.io"
 baseurl: ""
 google-tracking-id: "UA-58926075-1"
 
+
 #############
 # HTML Head #
 #############
@@ -13,7 +14,7 @@ author: "Mukundhan Srinivasan"
 lang: "en"
 title: "{ immsrini }"
 favicon: "/img/favicon.ico"
-description: "Web aboard of immsrini. Opinions expressed are mine."
+description: "Web space of immsrini. Opinions expressed are mine."
 keywords: "mukundhan, srinivasan, mannargudi, machine learning, statistics, big data, data science, IoT"
 
 ################
@@ -21,7 +22,7 @@ keywords: "mukundhan, srinivasan, mannargudi, machine learning, statistics, big 
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg1.png"
+background-img: "../img/intro-bg2.png"
 me-img: "/img/mSrini1.png"
 me-img-alt-text: "Mukundhan Srinivasan"
 
@@ -60,18 +61,33 @@ disqus-shortname: "forkmsrini"
 ###############
 
 events:
+  - image: "/img/career/stanford.png"
+    date: "January 2016"
+    description: " Stanford Graduate School of Business Ignite Fellow"
+  - image: "/img/career/dlblr.jpg"
+    date: "December 2015 - Today"
+    description: " Organiser <a href=\"http://www.meetup.com/Deep-Learning-Bangalore/\" target=\"_blank\">Deep Learning Bangalore Meetup</a>" 
   - image: "/img/career/TTC_cloudOnly.png"
     date: "July 2015 - Today"
-    description: " Co-founder & CTO @ <a href=\"http://www.thethingscloud.com/\" target=\"_blank\">TheThingsCloud</a>"
-  - image: "/img/career/mllLogo.png"
-    date: "March 2015 - Today"
-    description: " Founder & CEO @ <a href=\"http://www.marketlearning.io/\" target=\"_blank\">MarketLearningLabs</a>"
-  - image: "/img/career/IISc_logo_transparent1.png"
-    date: "June 2015 - Today"
-    description: " Research Assistant @ Robert Bosch Center for Cyberphysical Systems, IISc, Bangalore"
+    description: " Co-founder & CTO @ <a href=\"http://www.thethingscloud.com/\" target=\"_blank\">TheThingsCloud</a> <br/> CleanTech-IoT Company" 
+  # - image: "/img/career/pyio.png"
+  #   date: "July 2015 - Today"
+  #   description: " Co-founder @ <a href=\"http://www.pyio.io/\" target=\"_blank\">Pyio.io</a> <br/> IoT-PaaS Company" 
+  # - image: "/img/career/latentMacines.png"
+  #   date: "March 2015 - Today"
+  #   description: " Co-founder @ <a href=\"http://www.latentmachines.com/\" target=\"_blank\">LatentMachines</a> <br/> Internet of Analysis Company" 
+  # - image: "/img/career/mllLogo.png"
+  #   date: "March 2015 - Today"
+  #   description: " Founder & CEO @ <a href=\"http://www.marketlearning.io/\" target=\"_blank\">MarketLearningLabs</a> <br/> DeepLearning for Enterprises"
+  # - image: "/img/career/f2r.png"
+  #   date: "December 2014 - Today"
+  #   description: " Founder @ <a href=\"http://www.forget2remember.com/\" target=\"_blank\">Forget2Remember</a> <br/> DigitalHealth Company" 
+  # - image: "/img/career/IISc_logo_transparent1.png"
+  #   date: "June 2015 - Today"
+  #   description: " Research Assistant @ <a href=\"http://cps.iisc.ernet.in/page/homepage\" target=\"_blank\">Robert Bosch Center for Cyberphysical Systems,</a> <a href=\"http://www.iisc.ernet.in/\">IISc, Bangalore</a>"
   - image: "/img/career/IISc_logo_transparent1.png"
     date: "June 2013 - March 2015"
-    description: "Research Assistant @ <a href=\"http://mile.ee.iisc.ernet.in/mile/index.html\" target=\"_blank\"> MILE Lab,</a> <a href=\"http://www.ee.iisc.ernet.in/\">Department of Electrical Engg.,</a> <a href=\"http://www.iisc.ernet.in/\">IISc, Bangalore</a>"
+    description: "Research Assistant @ <a href=\"http://mile.ee.iisc.ernet.in/mile/index.html\" target=\"_blank\"> MILE Lab,</a> <a href=\"http://www.ee.iisc.ernet.in/\">Dept. of Electrical Engg.,</a> <a href=\"http://www.iisc.ernet.in/\">IISc, Bangalore</a>"
   - image: "/img/career/ieee.png"
     date: "December 2009 - Today"
     description: " Volunteer @ <a href=\"https://www.ieee.org/index.html\" target=\"_blank\">IEEE</a> <a href=\"http://ieeebangalore.org/\" target=\"_blank\">Bangalore Section</a>"
@@ -100,12 +116,12 @@ email: "msrini@thethingscloud.com"
 ##################
 
 social:
-  - title: "facebook"
-    url: "http://facebook.com/mukundhansrinivasan"
+ # - title: "facebook"
+ #   url: "http://facebook.com/mukundhansrinivasan"
   - title: "twitter"
     url: "http://twitter.com/immsrini"
-  - title: "youtube"
-    url: "http://youtube.com/"
+ # - title: "youtube"
+ #   url: "http://youtube.com/"
   - title: "github"
     url: "https://github.com/forkmsrini"
   - title: "linkedin"
@@ -128,11 +144,11 @@ social:
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  <i class="fa fa-hand-spock-o"></i> Hello World: 'about'
-  <i class="fa fa-pencil"></i> Thought.toString(): 'blog'
+  About: 'about'
+  Writings: 'blog'
 #  Publications: 'publications'
-  <i class="fa fa-briefcase"></i> Work.what(): 'career'
-  <i class="fa fa-envelope"></i> Contact.me(): 'contact'
+  Career: 'career'
+  Contact: 'contact'
 
 # Pagination path
 paginate_path: "blog/page:num"

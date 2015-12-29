@@ -26,3 +26,5 @@ So you'll probably know each question can be given a maximum of two minutes more
 Well, first of you'll bewildered by amount of new words encountered. So head over to [mnemonic.com](http://www.mnemonicdictionary.com/) and pay attention to ways to remember new words. Learning a ton of new words is inevitable. Although it is beneficial to have a large vocabulary, often I found myself making mistakes in answering. I later understood that, words like *although, however, and, but, so, consequently, etc.* had greater impact on perceiving the intended meaning that those difficult words that I would hardly read. Additionally, punctuation marks like :, ;, -, give a lot of information towards finding the right answer.
 
 So, in conclusion, to trivialise the intensity, the Graduate Record Examination is all about **why** and not **how**. The correct answer is given as an option after all!
+
+On my recent attempt I score 165 in quants and 164 in verbs, totalling to about 329 on 340.
