@@ -63,7 +63,7 @@ disqus-shortname: "forkmsrini"
 events:
   - image: "/img/career/stanford.png"
     date: "January 2016"
-    description: " Stanford Graduate School of Business Ignite Fellow"
+    description: "Ignite Fellow @ <a href=\"https://www.gsb.stanford.edu/\" target=\"_blank\">Stanford Graduate School of Business </a>"
   - image: "/img/career/dlblr.jpg"
     date: "December 2015 - Today"
     description: " Organiser @ <a href=\"http://www.meetup.com/Deep-Learning-Bangalore/\" target=\"_blank\">Deep Learning Bangalore Meetup</a>" 
