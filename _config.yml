@@ -66,7 +66,7 @@ events:
     description: " Stanford Graduate School of Business Ignite Fellow"
   - image: "/img/career/dlblr.jpg"
     date: "December 2015 - Today"
-    description: " Organiser <a href=\"http://www.meetup.com/Deep-Learning-Bangalore/\" target=\"_blank\">Deep Learning Bangalore Meetup</a>" 
+    description: " Organiser @ <a href=\"http://www.meetup.com/Deep-Learning-Bangalore/\" target=\"_blank\">Deep Learning Bangalore Meetup</a>" 
   - image: "/img/career/TTC_cloudOnly.png"
     date: "July 2015 - Today"
     description: " Co-founder & CTO @ <a href=\"http://www.thethingscloud.com/\" target=\"_blank\">TheThingsCloud</a> <br/> CleanTech-IoT Company" 
